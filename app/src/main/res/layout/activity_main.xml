@@ -119,6 +119,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:padding="4dp"
                 android:background="@drawable/bg_white"
                 android:drawableStart="@drawable/email_icon"
                 android:hint="  Enter Email Id"

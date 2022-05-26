@@ -130,26 +130,22 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <CheckBox
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal|center_vertical"
-        app:layout_constraintBottom_toTopOf="@+id/new_usersignUp"
+        android:button="@drawable/custom_checkbox"
+        android:paddingEnd="16dp"
+        android:text="I've read &amp; Accept term and conditions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.07999998">
+        app:layout_constraintVertical_bias="0.04000002" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:button="@drawable/custom_checkbox"
-            android:text="I've read &amp; Accept term and conditions"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/white"
-            android:textSize="12dp" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/Login"
